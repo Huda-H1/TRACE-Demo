@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Hub -Cloud-.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/Monet Painting.unity
+    guid: e36246892cce00241bc96d7faaf9052a
+  - enabled: 1
+    path: Assets/Scenes/Kandinsky Painting.unity
+    guid: 6de092f19244e1345a556a68a6f283ec
+  - enabled: 1
+    path: Assets/Scenes/Klimt Painting.unity
+    guid: 123b19d7922267642a9b5f4c4232d277
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
