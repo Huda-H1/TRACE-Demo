@@ -209,6 +209,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7621afdf0fff32f469e687052d46b730, type: 3}
+--- !u!4 &816222675 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3430864971526892524, guid: 7621afdf0fff32f469e687052d46b730,
+    type: 3}
+  m_PrefabInstance: {fileID: 816222674}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &899692947
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +283,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -614,9 +620,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: fadeUpSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
       propertyPath: sceneToLoad
       value: HubScene
       objectReference: {fileID: 0}
+    - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: fadeDirection
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: fadeDownSpeed
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: ovrFaderScript
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555554176073193053, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: playerCameraTransform
+      value: 
+      objectReference: {fileID: 816222675}
     - target: {fileID: 1555554176073193054, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
       propertyPath: m_RootOrder
@@ -640,12 +676,12 @@ PrefabInstance:
     - target: {fileID: 1555554176073193054, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1555554176073193054, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1555554176073193054, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
@@ -660,7 +696,7 @@ PrefabInstance:
     - target: {fileID: 1555554176073193054, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 180
       objectReference: {fileID: 0}
     - target: {fileID: 1555554176073193054, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
@@ -672,11 +708,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1555554176900937531, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1555554177118755632, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
         type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1177780045}
+    - target: {fileID: 1555554177118755632, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1555554177118755632, guid: 479af0ff0cc74c74fba59a0d301d4bc2,
+        type: 3}
+      propertyPath: m_PlaneDistance
+      value: 0.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 479af0ff0cc74c74fba59a0d301d4bc2, type: 3}
 --- !u!23 &5824888959248104809

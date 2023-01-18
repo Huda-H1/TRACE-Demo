@@ -6,27 +6,42 @@ using UnityEngine.SceneManagement;
 
 public class Fader : MonoBehaviour
 {
+    public string sceneToLoad = "";
+
     public enum fadeOptions { FadeUp, FadeDown, FadeStatic, FadeUpToSceneLoad, FadeDownToSceneLoad};
     public float fadeCurrentValue = 0.0f;
     public fadeOptions fadeDirection = fadeOptions.FadeStatic;
     public float fadeUpSpeed = 2f;
     public float fadeDownSpeed = 2f;
-    public Image imageToFade = null;
-    public string sceneToLoad = "";
+    //public Image imageToFade = null;
+    public Transform playerCameraTransform = null;
 
     private float lastTime = 0.0f;
-
     private IEnumerator coroutineForSceneLoading = null;
     private bool loadingscene = false;
+    private Material materialToFade = null;
+
 
     // Start is called before the first frame update
     void Start()
     {
         lastTime = Time.time;
+        if (playerCameraTransform != null)
+        {
+            GameObject plane = GameObject.CreatePrimitive(PrimitiveType.Plane);
+            plane.transform.position = new Vector3(0, 0, 0.2f);
+            plane.transform.Rotate(90.0f,180.0f,0);
+            materialToFade = plane.GetComponent<MeshRenderer>().material;
+            materialToFade.shader = Shader.Find("Unlit/Unlit Transparent Color");
+            Color newColor = Color.black;
+            newColor.a = 0.0f;
+            materialToFade.color = newColor;
+            plane.transform.SetParent(playerCameraTransform, false);
+        }
     }
 
-    // Update is called once per frame
-    void Update()
+// Update is called once per frame
+void Update()
     {
         if (!loadingscene) // avoid any case where a scene might be loaded twice
         {
@@ -55,12 +70,15 @@ public class Fader : MonoBehaviour
                 if (fadeCurrentValue < 0.0f)
                 fadeCurrentValue = 0.0f;
 
-            if (imageToFade != null)
+            //if (imageToFade != null)
+            if (materialToFade != null)
             {
                 // apply the fade
-                Color newColor = imageToFade.color;
+                //Color newColor = imageToFade.color;
+                Color newColor = materialToFade.color;
                 newColor.a = fadeCurrentValue;
-                imageToFade.color = newColor;
+                //imageToFade.color = newColor;
+                materialToFade.color = newColor;
             }
 
             // if the mode is looking for a scene load and the required fade has been reached, trigger the load
