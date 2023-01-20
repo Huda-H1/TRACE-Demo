@@ -12,13 +12,13 @@ EditorBuildSettings:
     path: Assets/Scenes/HubScene.unity
     guid: 4185547a0729b634da754b98908e006a
   - enabled: 1
-    path: Assets/Scenes/Portal1Scene.unity
+    path: Assets/Scenes/MonetScene.unity
     guid: 3a62ac8f8245b344a9e8d18e74ac3820
   - enabled: 1
-    path: Assets/Scenes/Portal2Scene.unity
+    path: Assets/Scenes/KandinskyScene.unity
     guid: 8291fb7ac6f69da4d88b16ff5778b378
   - enabled: 1
-    path: Assets/Scenes/Portal3Scene.unity
+    path: Assets/Scenes/KlimtScene.unity
     guid: 322e65c4136de6b4eb38d5788d341867
   - enabled: 0
     path: Assets/Oculus/Interaction/Samples/Scenes/Examples/PokeExamples.unity
