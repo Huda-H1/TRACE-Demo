@@ -722,7 +722,9 @@ PlayerSettings:
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Android: 
+    Standalone: FD_GLASS
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
