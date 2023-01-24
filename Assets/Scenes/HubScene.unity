@@ -4667,6 +4667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkyDome
       objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -4677,15 +4681,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4733,6 +4737,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_DynamicOccludee
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_LightProbeUsage
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2300002, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_StaticShadowCaster
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2300002, guid: 1340630fb7a3267499177be33f281f05, type: 3}
@@ -5103,7 +5115,7 @@ Light:
   m_Type: 1
   m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
-  m_Intensity: 1
+  m_Intensity: 0.5
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -5160,8 +5172,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697027363}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.031, y: 5.028, z: -0.045}
+  m_LocalRotation: {x: -0.21110971, y: -0.2356991, z: 0.052566838, w: -0.94716173}
+  m_LocalPosition: {x: -23.600698, y: 27.835918, z: -47.253784}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -15065,6 +15077,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SkyDome (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 100008, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_IsActive
       value: 0
@@ -15072,6 +15088,18 @@ PrefabInstance:
     - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_RootOrder
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: 1340630fb7a3267499177be33f281f05, type: 3}
       propertyPath: m_LocalPosition.x
