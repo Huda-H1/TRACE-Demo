@@ -241,7 +241,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.CreativeSolutions.TRACEPrototype
-    Standalone: com.DefaultCompany.com.unity.template.vr
+    Standalone: com.CreativeSolutions.TRACE-Prototype
   buildNumber:
     Standalone: 0
     iPhone: 0
