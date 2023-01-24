@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cloud Shader
-  m_Shader: {fileID: -6465566751694194690, guid: a3a3aa53bf939d541837de5ba3833ace,
+  m_Name: Grass Modifer
+  m_Shader: {fileID: -6465566751694194690, guid: a650435579981d440be984d5ae7ac45a,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 4
+  m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -21,6 +21,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Grass_Diffuse:
+        m_Texture: {fileID: 2800000, guid: c27269dc7330f1346b17913db40a0742, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -35,32 +39,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 1.75
-    - _BUILTIN_QueueControl: 0
-    - _BUILTIN_QueueOffset: 0
-    - _CloudScale: 120
-    - _Cloud_Scale: 150
-    - _Power: 0.9
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _Wind_Density: 0.6
+    - _Wind_Power: 0.3
     m_Colors:
-    - _Cloud_Color: {r: 1, g: 0.9025545, b: 0.6367924, a: 1}
-    - _Cloud_Speed: {r: 0.005, g: 0, b: 0, a: 0}
+    - _Grass_Colour: {r: 0.42833507, g: 0.7169812, b: 0.42274833, a: 0}
+    - _Wind_Speed: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &6544925022216617128
-MonoBehaviour:
-  m_ObjectHideFlags: 11
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 639247ca83abc874e893eb93af2b5e44, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  version: 0
---- !u!114 &8638224249380339110
+--- !u!114 &778138746228471009
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
