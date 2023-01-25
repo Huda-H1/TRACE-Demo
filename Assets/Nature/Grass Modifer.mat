@@ -42,10 +42,10 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Wind_Density: 0.6
-    - _Wind_Power: 0.3
+    - _Wind_Power: 0.2
     m_Colors:
-    - _Grass_Colour: {r: 0.42833507, g: 0.7169812, b: 0.42274833, a: 0}
-    - _Wind_Speed: {r: 1, g: 0, b: 0, a: 0}
+    - _Grass_Colour: {r: 0.17817727, g: 0.49056602, b: 0.17817727, a: 0}
+    - _Wind_Speed: {r: 0.4, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &778138746228471009
 MonoBehaviour:
