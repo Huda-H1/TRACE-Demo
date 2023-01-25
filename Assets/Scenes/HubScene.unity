@@ -3997,6 +3997,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3430864971533845038, guid: 7621afdf0fff32f469e687052d46b730,
+        type: 3}
+      propertyPath: useRecommendedMSAALevel
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3448609856656753784, guid: 7621afdf0fff32f469e687052d46b730,
         type: 3}
       propertyPath: m_Enabled
