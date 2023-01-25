@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Cloud Shader
+  m_Name: Wispy Shader
   m_Shader: {fileID: -6465566751694194690, guid: a3a3aa53bf939d541837de5ba3833ace,
     type: 3}
   m_ValidKeywords: []
@@ -35,17 +35,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 9.7
+    - _Alpha: 0.25
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _CloudScale: 120
-    - _Cloud_Scale: 120
-    - _Power: 3.57
+    - _Cloud_Scale: 100
+    - _Power: -0.93
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Cloud_Color: {r: 0.098878615, g: 0.13272013, b: 0.20754719, a: 1}
-    - _Cloud_Speed: {r: 0.005, g: 0, b: 0, a: 0}
+    - _Cloud_Color: {r: 0.15058227, g: 0.08018869, b: 1, a: 1}
+    - _Cloud_Speed: {r: -0.025, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6544925022216617128
 MonoBehaviour:
