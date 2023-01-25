@@ -35,17 +35,17 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Alpha: 1.75
+    - _Alpha: 1.16
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _CloudScale: 120
     - _Cloud_Scale: 150
-    - _Power: 0.9
+    - _Power: 0.87
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Cloud_Color: {r: 1, g: 0.9025545, b: 0.6367924, a: 1}
-    - _Cloud_Speed: {r: 0.005, g: 0, b: 0, a: 0}
+    - _Cloud_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Cloud_Speed: {r: 0.011, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &6544925022216617128
 MonoBehaviour:
