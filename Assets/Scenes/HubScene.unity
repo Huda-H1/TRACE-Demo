@@ -223,10 +223,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 31348977}
   _renderer: {fileID: 31348979}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  _normalColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _hoverColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _selectColor: {r: 0.7075472, g: 0.45723566, b: 0.45723566, a: 1}
+  _disabledColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
 --- !u!114 &31348976
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -402,7 +402,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: a60c666af127a5b4a88b492e8c8f96a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -929,10 +929,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 74502329}
   _renderer: {fileID: 74502331}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  _normalColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
+  _hoverColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
+  _selectColor: {r: 0.8113208, g: 0.8027645, b: 0.60083663, a: 1}
+  _disabledColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
 --- !u!114 &74502328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1108,7 +1108,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: 1cbee989132135e4eaa1759434aa8e3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2390,7 +2390,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 292523205}
   _renderer: {fileID: 292523207}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
+  _normalColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   _disabledColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
@@ -8137,10 +8137,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 961442270}
   _renderer: {fileID: 961442273}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  _normalColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
+  _hoverColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
+  _selectColor: {r: 0.4255518, g: 0.4719861, b: 0.6886792, a: 1}
+  _disabledColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
 --- !u!114 &961442269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8316,7 +8316,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: 8bd6d28497b63224c93504c6a6194012, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9048,7 +9048,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1046894168}
   _renderer: {fileID: 1046894170}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
+  _normalColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   _disabledColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
@@ -9318,10 +9318,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1071574308}
   _renderer: {fileID: 1071574311}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  _normalColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
+  _hoverColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
+  _selectColor: {r: 0.4255518, g: 0.4719861, b: 0.6886792, a: 1}
+  _disabledColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
 --- !u!114 &1071574307
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9497,7 +9497,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: 8bd6d28497b63224c93504c6a6194012, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10017,10 +10017,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1143806480}
   _renderer: {fileID: 1143806482}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
+  _normalColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
+  _hoverColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
+  _selectColor: {r: 0.8113208, g: 0.8027645, b: 0.60083663, a: 1}
+  _disabledColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
 --- !u!114 &1143806479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10196,7 +10196,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: 1cbee989132135e4eaa1759434aa8e3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10328,7 +10328,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1165326510}
   _renderer: {fileID: 1165326512}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
+  _normalColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   _disabledColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
@@ -11052,10 +11052,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1290756615}
   _renderer: {fileID: 1290756617}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+  _normalColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _hoverColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _selectColor: {r: 0.7075472, g: 0.45723566, b: 0.45723566, a: 1}
+  _disabledColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
 --- !u!114 &1290756614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11231,7 +11231,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: a60c666af127a5b4a88b492e8c8f96a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -11448,10 +11448,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1296455412}
   _renderer: {fileID: 1296455414}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+  _normalColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
+  _hoverColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
+  _selectColor: {r: 0.8113208, g: 0.8027645, b: 0.60083663, a: 1}
+  _disabledColor: {r: 0.7075472, g: 0.6878002, b: 0.2236116, a: 1}
 --- !u!114 &1296455411
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11627,7 +11627,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: 1cbee989132135e4eaa1759434aa8e3a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12683,10 +12683,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1412583161}
   _renderer: {fileID: 1412583164}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
+  _normalColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
+  _hoverColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
+  _selectColor: {r: 0.4255518, g: 0.4719861, b: 0.6886792, a: 1}
+  _disabledColor: {r: 0.16398184, g: 0.24901113, b: 0.6320754, a: 1}
 --- !u!114 &1412583160
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12862,7 +12862,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: 8bd6d28497b63224c93504c6a6194012, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13429,10 +13429,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1511322176}
   _renderer: {fileID: 1511322178}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
-  _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
-  _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
-  _disabledColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
+  _normalColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _hoverColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _selectColor: {r: 0.7075472, g: 0.45723566, b: 0.45723566, a: 1}
+  _disabledColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
 --- !u!114 &1511322175
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13608,7 +13608,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2b31de518229cb428f94b3a08bacd25, type: 2}
+  - {fileID: 2100000, guid: a60c666af127a5b4a88b492e8c8f96a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13724,6 +13724,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: 'rig '
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 29feedaae17644bdb9bcb7fd8972860e,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29feedaae17644bdb9bcb7fd8972860e, type: 3}
@@ -16946,7 +16951,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2014028680
 Transform:
   m_ObjectHideFlags: 0

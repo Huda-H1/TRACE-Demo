@@ -431,7 +431,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 365897043}
   _renderer: {fileID: 365897046}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
+  _normalColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   _disabledColor: {r: 0.5471698, g: 0.5471698, b: 0.5471698, a: 1}
@@ -842,7 +842,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 552560943}
   _renderer: {fileID: 552560946}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
+  _normalColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   _disabledColor: {r: 0.509434, g: 0.509434, b: 0.509434, a: 1}
@@ -3239,7 +3239,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 1507426180}
   _renderer: {fileID: 1507426182}
-  _normalColor: {r: 0.18867922, g: 0.18778922, b: 0.18778922, a: 1}
+  _normalColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _hoverColor: {r: 0.5781417, g: 0.5781417, b: 0.6037736, a: 1}
   _selectColor: {r: 0.9150943, g: 0.9150943, b: 0.9150943, a: 1}
   _disabledColor: {r: 0.4433962, g: 0.4433962, b: 0.4433962, a: 1}
