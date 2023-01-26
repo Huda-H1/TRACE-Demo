@@ -8469,7 +8469,7 @@ PrefabInstance:
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
       propertyPath: simulationSpeed
-      value: 0.01
+      value: 0.02
       objectReference: {fileID: 0}
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
@@ -8478,8 +8478,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
+      propertyPath: InitialModule.startSize.scalar
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
+        type: 3}
       propertyPath: InitialModule.startSpeed.scalar
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
+        type: 3}
+      propertyPath: InitialModule.startSize.minScalar
+      value: 0.05
       objectReference: {fileID: 0}
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
