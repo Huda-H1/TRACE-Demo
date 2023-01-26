@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2032,6 +2032,31 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2771540760365099955, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540760365099955, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540760365099955, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540760365099955, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540760365099955, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.68
+      objectReference: {fileID: 0}
     - target: {fileID: 2771540760502005481, guid: 998dcdfbbbee4844c843d29f881ca0dc,
         type: 3}
       propertyPath: m_audioClip
@@ -2046,6 +2071,86 @@ PrefabInstance:
         type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761138389754, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761138389754, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761138389754, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761138389754, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761138389754, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.63
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761306716457, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761339106162, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: _radius
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2771540761344849476, guid: 998dcdfbbbee4844c843d29f881ca0dc,
         type: 3}
@@ -3636,7 +3741,14 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Credits text goes here
+  m_text: 'A Fatima Nammi Production
+
+
+    Executive Production by Creative Solutions
+
+
+    Developed
+    by Skills City'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b8f5aeb9c6de7614db2631011b869bc3, type: 2}
   m_sharedMaterial: {fileID: -5839354330806206608, guid: b8f5aeb9c6de7614db2631011b869bc3,
@@ -3664,10 +3776,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
+  m_fontSize: 18
   m_fontSizeBase: 50
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
