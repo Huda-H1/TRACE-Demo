@@ -8478,8 +8478,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
+      propertyPath: TrailModule.ratio
+      value: 0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
+        type: 3}
       propertyPath: InitialModule.startSize.scalar
-      value: 0.3
+      value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
@@ -8494,13 +8499,18 @@ PrefabInstance:
     - target: {fileID: 1844297260793254443, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
       propertyPath: TrailModule.widthOverTrail.scalar
-      value: 0.5
+      value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1844297260793254444, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
       propertyPath: m_RenderMode
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1844297260793254444, guid: 187d76b59c08043a4930d6266aa951da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: a3c8df986d39b42379d2d3e211d58d58, type: 2}
     - target: {fileID: 1844297260793254445, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
       propertyPath: m_Name
