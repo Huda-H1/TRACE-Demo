@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17277767, g: 0.21590438, b: 0.29784063, a: 1}
+  m_IndirectSpecularColor: {r: 0.18173203, g: 0.22739588, b: 0.30741918, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2062,11 +2062,21 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 1.68
       objectReference: {fileID: 0}
+    - target: {fileID: 2771540760502005477, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2771540760502005481, guid: 998dcdfbbbee4844c843d29f881ca0dc,
         type: 3}
       propertyPath: m_audioClip
       value: 
       objectReference: {fileID: 8300000, guid: ef633d065a34c469b915e5b914f07e92, type: 3}
+    - target: {fileID: 2771540760547032803, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2771540760547032807, guid: 998dcdfbbbee4844c843d29f881ca0dc,
         type: 3}
       propertyPath: m_audioClip
@@ -2156,6 +2166,11 @@ PrefabInstance:
         type: 3}
       propertyPath: _radius
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2771540761344849472, guid: 998dcdfbbbee4844c843d29f881ca0dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2771540761344849476, guid: 998dcdfbbbee4844c843d29f881ca0dc,
         type: 3}
@@ -2809,8 +2824,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697027363}
-  m_LocalRotation: {x: 0.7002931, y: 0.0050048237, z: 0.001049392, w: 0.71383715}
-  m_LocalPosition: {x: -3.709644, y: 358.0661, z: 77.53228}
+  m_LocalRotation: {x: 0.37632528, y: 0.012574667, z: -0.0004991165, w: 0.92640215}
+  m_LocalPosition: {x: -13.519101, y: 478.93716, z: -362.7459}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
