@@ -2793,7 +2793,7 @@ Light:
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 2
+    m_Type: 0
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -6434,6 +6434,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_HDR
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3430864971526431798, guid: 7621afdf0fff32f469e687052d46b730,
+        type: 3}
+      propertyPath: m_ClearFlags
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3430864971526892522, guid: 7621afdf0fff32f469e687052d46b730,
         type: 3}
