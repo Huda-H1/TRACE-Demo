@@ -125,7 +125,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_99F9ED08: {r: 0.9056604, g: 0.87961507, b: 0.7903168, a: 0}
+    - Color_99F9ED08: {r: 0.066037714, g: 0.06520705, b: 0.06520705, a: 0}
     - Color_ABD0D7B1: {r: 0.5943396, g: 0.5943396, b: 0.5943396, a: 0}
     - Color_DF55D64F: {r: 10.176824, g: 10.176824, b: 10.176824, a: 0}
     - Color_FB0ECDA7: {r: 1, g: 1, b: 1, a: 0}
