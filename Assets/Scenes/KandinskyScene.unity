@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.17277767, g: 0.21590438, b: 0.29784063, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -501,6 +501,11 @@ PrefabInstance:
       propertyPath: VelocityModule.speedModifier.scalar
       value: 0.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1844297260793254444, guid: 187d76b59c08043a4930d6266aa951da,
+        type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 1e531a18d0d514384998f17a273c8f1e, type: 2}
     - target: {fileID: 1844297260793254445, guid: 187d76b59c08043a4930d6266aa951da,
         type: 3}
       propertyPath: m_Name
@@ -1228,7 +1233,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b7d895edd94540c980c7d0349d70155, type: 2}
+      objectReference: {fileID: 2100000, guid: 09c268e6d03c447ce958b75475754eb3, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363a8f737719f4d2eafb35f885f3706f, type: 3}
 --- !u!1 &290571521
@@ -2398,8 +2403,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _interactableView: {fileID: 597358464}
   _renderer: {fileID: 597358466}
-  _normalColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
-  _hoverColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
+  _normalColor: {r: 0.62352943, g: 0.25882354, b: 0.32941177, a: 1}
+  _hoverColor: {r: 0.62352943, g: 0.25882354, b: 0.32941177, a: 1}
   _selectColor: {r: 0.7075472, g: 0.45723566, b: 0.45723566, a: 1}
   _disabledColor: {r: 0.6037736, g: 0.20220721, b: 0.20220721, a: 1}
 --- !u!114 &597358463
@@ -2804,8 +2809,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 697027363}
-  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
-  m_LocalPosition: {x: 0.031, y: 5.028, z: -0.045}
+  m_LocalRotation: {x: 0.7002931, y: 0.0050048237, z: 0.001049392, w: 0.71383715}
+  m_LocalPosition: {x: -3.709644, y: 358.0661, z: 77.53228}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5120,7 +5125,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b7d895edd94540c980c7d0349d70155, type: 2}
+      objectReference: {fileID: 2100000, guid: fd69c699bc1634d3eada85663881c7fa, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 363a8f737719f4d2eafb35f885f3706f, type: 3}
 --- !u!1 &1286033421
@@ -7389,17 +7394,17 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: e64ce8632e5ab43da935b1fc6f861cc6,
         type: 3}
       propertyPath: m_LocalScale.x
-      value: 2000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e64ce8632e5ab43da935b1fc6f861cc6,
         type: 3}
       propertyPath: m_LocalScale.y
-      value: 2900.729
+      value: 725.18225
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e64ce8632e5ab43da935b1fc6f861cc6,
         type: 3}
       propertyPath: m_LocalScale.z
-      value: 2000
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e64ce8632e5ab43da935b1fc6f861cc6,
         type: 3}
@@ -7460,7 +7465,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 1b7d895edd94540c980c7d0349d70155, type: 2}
+      objectReference: {fileID: 2100000, guid: 7b58ad4dbc0af46f5b8e2d7f81232964, type: 2}
     - target: {fileID: 919132149155446097, guid: e64ce8632e5ab43da935b1fc6f861cc6,
         type: 3}
       propertyPath: m_Name
